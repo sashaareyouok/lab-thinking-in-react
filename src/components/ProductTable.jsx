@@ -11,7 +11,9 @@ function ProductsTable (props) {
 
           <th>Name</th>
           <th>Price</th>
-          <th>category</th>
+          <th>Category</th>
+          <th>InStock</th>
+          
           
         </tr>
         

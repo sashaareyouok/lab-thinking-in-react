@@ -1,13 +1,21 @@
 
 function SearchBar () {
+
+    const [searchInput, setSearchInput] = useState(search)
+
     
-    
+    const searchItems = (searchValue) => {
+        setSearchInput(searchValue)
+    }
+
     return(
         <div>
          
         <h4>Search</h4>
-        <input type="text" placeholder="Search..">
-        </input>
+        <input icon='search'
+        placeholder='Search...'
+        onChange={(e) => searchItems(e.target.value)}
+            />
           
         </div>    
     )

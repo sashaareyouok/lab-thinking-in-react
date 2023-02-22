@@ -11,6 +11,8 @@ function ProductRow (props) {
           <td>{props.products.name}</td>
           <td>{props.products.price}</td>
           <td>{props.products.category}</td>
+          <td>{props.products.inStock}</td>
+          
       
          
   
