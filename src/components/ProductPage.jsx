@@ -15,7 +15,7 @@ if (!userInput) {
 
 else {
     const filterProducts = DataJson.filter((productIndividual)=>{
-        return productIndividual.name.toLowerCase().includes(userInput.toLowerCase)
+        return productIndividual.name.toLowerCase().includes(userInput.toLowerCase())
     })
 
     setProducts(filterProducts)
